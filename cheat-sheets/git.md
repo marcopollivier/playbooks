@@ -4,7 +4,7 @@
 
 ```sh
 $ git config --global user.name "Fulano da Silva"
-$ git config --global user.email fulanodasilva.git@gmail.com
+$ git config --global user.email fulanodasilva@gmail.com
 ```
 
 ## Criação
@@ -26,11 +26,20 @@ $ git clone https://github.com/fulanodasilva/citacoes.git
 $ git status
 ```
 
-## Adiciona o arquivo na staging area 
+## Adiciona ou remover o arquivo na area de staging 
+
+### Adicionar
 
 ```sh
 $ git add filmes.txt # Arquivo especifico
 $ git add .          #Todos os arquivos
+```
+
+### Remover
+
+```sh
+$ git reset filmes.txt # Arquivo especifico
+$ git reset .          #Todos os arquivos
 ```
 
 ## Commita o arquivo 
