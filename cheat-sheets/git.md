@@ -42,6 +42,12 @@ $ git reset filmes.txt # Arquivo especifico
 $ git reset .          #Todos os arquivos
 ```
 
+### Restaurar um arquivo (desfazer uma alteração) 
+
+```sh 
+$ git restore <file-path>
+```
+
 ## Commita o arquivo 
 
 ```sh
